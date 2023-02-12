@@ -98,3 +98,33 @@ body{
 .delete:active {
     transform: scale(1);
 }
+
+@media screen and (max-width: 640px) {
+    .flex-container {
+        width: 80%;
+        padding: 0.5rem;
+        border-radius: 15px;
+        font-size: 1rem;
+    }
+    .todo{
+        height: 2rem;
+        font-size: 1rem;
+        font-family: Carter One, sans-serif;
+        border-radius: 5px;
+        width: 60%;
+    }
+    
+    .button{
+        border-radius: 5px;
+        font-size: 0.7rem;
+        font-family: Carter One, sans-serif;
+        justify-content: center;
+        height: 2rem;
+        width: 15%;
+        margin-left: 1rem;
+    }
+    .delete:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+    }
+}
